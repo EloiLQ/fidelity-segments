@@ -13,7 +13,7 @@ Au total, ce sont 3 x 2 x 3 = 18 segments client qui sont obtenus à partir des 
 
 Ce dépôt contient les notebooks associés à la modélisation du score fidélité et de la segmentation client :
 - [modélisation du score fidélité](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/FidelityScore.ipynb) (FidelityScore.ipynb)
-- [segmentation orienté fidélité](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/FidelitySegmentation.ipynb) (FidelitySegmentation.ipynb)
+- [segmentation orientée fidélité](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/FidelitySegmentation.ipynb) (FidelitySegmentation.ipynb)
 
 Ce dépôt contient également une préparation des données d'Olist dans le but de réaliser une segmentation client, une étude sur les pistes de segmentations explorées  (recherche de patterns et RFM), et une segmentation de clustering classique à l'aide de l'algorithme K-Means (RFM plus note de satisfaction) : 
 - [préparation des données](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/DataWrangling.ipynb) (DataWrangling.ipynb)
