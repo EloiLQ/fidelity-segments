@@ -9,7 +9,7 @@ La segmentation fidélité proposée s'appuie sur trois caractéristiques client
 - le score fidélité : 2 intervalles. Les 80 % plus bas scores, et les 20% les plus hauts
 - le montant : 3 intervalles de taille égales : [0, 56, 126, inf] reals
 
-Au total, ce sont 3 x 2 x 3 = 18 segments client qui sont obtenus à partir des critères définis ci-dessus. Les segments sont facilement regroupables selon ses besoins. Par exemple, pour cibler les clients les plus susceptibles de consommer à nouveau, il est conseillé de sélectionner les segments client de récence inférieure à deux mois et de hauts scores fidélité (20% plus hauts scores).
+Au total, ce sont 3 x 2 x 3 = 18 segments client qui sont obtenus à partir des critères définis ci-dessus. Les segments sont facilement regroupables selon ses besoins. Par exemple, pour cibler les clients les plus susceptibles de consommer à nouveau, il est conseillé de sélectionner les segments client de récence inférieure à deux mois et de hauts scores fidélité (20% plus hauts scores). Enfin, la segmentation présente une grande stabilité sur une durée d'au moins 4 mois.
 
 Ce dépôt contient les notebooks associés à la modélisation du score fidélité et de la segmentation client :
 - [modélisation du score fidélité](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/FidelityScore.ipynb) (FidelityScore.ipynb)
