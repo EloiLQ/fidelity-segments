@@ -9,7 +9,7 @@ La segmentation fidélité proposée s'apppuie sur trois caractéristiques clien
 - le score fidélité : 2 intervalles. Les 80 % plus bas scores, et les 20% les plus hauts
 - le montant : 3 intervalles de taille égales : [0, 56, 126, inf] reals
 
-Au total, ce sont 3 x 2 x 3 = 18 segments clients qui sont obtenus par cette segmentation. Les segments sont facilement regroupables afin de satisfaire aux besoins lors de son utilisation. Par exemple, pour cibler les clients les plus susceptibles de consommer à nouveau, il est conseillé de sélection les segments client de récence inférieure à deux mois et de hauts scores fidélité (20% plus hauts scores).
+Au total, ce sont 3 x 2 x 3 = 18 segments client qui sont obtenus à partir des critères définis ci-dessus. Les segments sont facilement regroupables selon ses besoins. Par exemple, pour cibler les clients les plus susceptibles de consommer à nouveau, il est conseillé de sélectionner les segments client de récence inférieure à deux mois et de hauts scores fidélité (20% plus hauts scores).
 
 Ce dépôt contient les notebooks associés à la modélisation du score fidélité et de la segmentation client :
 - [modélisation du score fidélité](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/FidelityScore.ipynb) (FidelityScore.ipynb)
@@ -17,5 +17,5 @@ Ce dépôt contient les notebooks associés à la modélisation du score fidéli
 
 Ce dépôt contient également une préparation des données d'Olist dans le but de réaliser une segmentation client, une étude sur les pistes de segmentations explorées  (recherche de patterns et RFM), et une segmentation de clustering classique à l'aide de l'algorithme K-Means (RFM plus note de satisfaction) : 
 - [préparation des données](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/DataWrangling.ipynb) (DataWrangling.ipynb)
-- [pistes explorées, avec une recherche de pattern et une RFM](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/ClusteringAndRFM.ipynb) (ClusteringAndRFM.ipynb)
-- [segmentation K-Means, de varaibles RFM et note de satisfaction](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/SegmentationKMeans.ipynb) (SegmentationKMeans.ipynb)
+- [pistes explorées, avec une recherche de patterns et une RFM](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/ClusteringAndRFM.ipynb) (ClusteringAndRFM.ipynb)
+- [segmentation K-Means, de variables RFM et note de satisfaction](https://nbviewer.jupyter.org/github/EloiLQ/fidelity-segments/blob/main/SegmentationKMeans.ipynb) (SegmentationKMeans.ipynb)
