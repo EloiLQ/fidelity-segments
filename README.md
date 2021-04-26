@@ -4,7 +4,7 @@ Ce projet présente une solution de segmentation client orientée fidélisation 
 
 Grâce aux données fournies par l'entreprise Olist, qui répertorient les achats de 96 milles clients sur une période de presque 2 ans (du 1er janvier 2017 au 31 août 2018), on est en mesure d'estimer le potentiel fidélité (ou score fidélité) d'un client sur la base de son dernier achat (prix, nombre et types d'articles achetés, type de paiement) et de ses données personnelles (non-intrusives), comme le code postal. En pratique, le score fidélité permet de séparer les clients potentiellement ponctuels d'un côté, et potentiellement fidèles de l'autre. La modéliation du score fidélité est effectuée à partir de l'algorithme d'apprentissage machine XGBoost.
 
-La segmentation fidélité proposée s'apppuie sur trois caractéristiques client : la récence, le score fidélité et le montant dépensé. Les critères de segmentation selon chacune des variables sont :
+La segmentation fidélité proposée s'appuie sur trois caractéristiques client : la récence, le score fidélité et le montant dépensé. Les critères de segmentation selon chacune des variables sont :
 - la récence : 3 intervalles de taille semblable : [7, 4, 2, 0] mois
 - le score fidélité : 2 intervalles. Les 80 % plus bas scores, et les 20% les plus hauts
 - le montant : 3 intervalles de taille égales : [0, 56, 126, inf] reals
